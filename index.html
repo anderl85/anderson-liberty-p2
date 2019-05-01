@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content=""/>
+		<meta name="keywords" content=""/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+		<link rel="stylesheet" type="text/css" href="styles/master.css">
+    </head>
+    <body>
+        <header>
+			<br>
+			<h1>Dwarf Name Generator</h1>
+		</header>
+        <main>
+			<section id="intro">
+				<br>
+				<p>This app will give you five dwarf names at a time. Just press one of the two buttons to specify the gender of the names you want. Or, press the clear button to remove any names from the page.</p>
+			</section>
+			<section>
+				<br>
+				<div id="sendNames">
+				</div>
+				<div id="button-container">
+				<button id="f-names" onclick="getFNames()">Get Female Names</button>
+				<button id="m-names" onclick="getMNames()">Get Male Names</button>
+				<br>
+				<button id="clear" onclick="clearDisplay()">Clear</button>
+				</div>
+			</section>
+        </main>
+        <footer>
+			<br><p>Liberty Anderson ITDEV160</p><br>
+		</footer>
+		<script src="scripts/scripts.js" charset="utf-8"></script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+
+body{
+	background-color: hsla(121, 92%, 21%, .75);
+	height: 100%;
+}
+header{
+	text-align: center;
+	background-color: hsla(121, 92%, 51%, 1);
+	border-bottom: .75em solid hsla(121, 92%, 21%, 1);
+}
+button{
+	width: 6.5em;
+	height: 6.5em;
+	margin: 1em 0.5em;
+	border: none;
+	background-color: hsla(121, 92%, 51%, 1);
+}
+#button-container{	
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+#intro{
+
+	border-color: hsla(121, 92%, 21%, 1);
+	border-style: solid;
+	border-width: 0 0 3px  0;
+}
+section{
+	background-color: white;
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+footer{
+	background-color: hsla(121, 92%, 21%, .25);
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	font-size: smaller;
+	/*position: absolute;
+	bottom: 0;
+	left: 12.5%;*/
+}
+/*
+hsla(27, 100%, 66%, 1)*/
+/*
+hsla(254, 71%, 55%, 1)
+*/
